@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ProductAuthentifier</string>
+    <string name="app_alias">Pro Auth</string>
+    <string name="register">REGISTER</string>
+    <string name="change_password">CHANGE PASSWORD</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_new_password_hint">New Password</string>
+    <string name="register_firstname_hint">First name</string>
+    <string name="register_lastname_hint">Last name</string>
+    <string name="register_username_hint">Username</string>
+    <string name="register_address_hint">Address</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_phone_hint">Phone number</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="go_to_login_hint">Go to Sign In</string>
+    <string name="about_us">Welcome to ProAuth!\n\n
+
+        Our app is designed to empower consumers and businesses by providing a seamless and reliable solution for verifying the authenticity of products.\n\n
+
+        With our app, you can easily scan QR codes found on product labels or packaging using your mobile device-s camera.\n
+        Upon scanning, our advanced authentication technology instantly verifies the product-s authenticity, giving you peace of mind and confidence in your purchase.\n\n
+
+        Our mission is to combat counterfeit products and protect consumers from fraudulent goods.\n
+        By leveraging cutting-edge technology and industry expertise, we aim to create a safer marketplace where authenticity and trust are paramount.\n
+    </string>
+    <string name="help">User Manual: ProAuth\n\n
+
+        Table of Contents:\n\n
+
+            Introduction\n
+            Getting Started\n
+            Authenticity Verification Process\n
+            QR Code Scanning\n
+            Changing Password\n
+            Logout\n\n
+
+        1. Introduction:\n\n
+        Welcome to the Product Authenticity Verification App! This user manual is designed to guide you through the app\'s features and functionalities to help you verify the authenticity of products seamlessly.\n\n
+
+        2. Getting Started:\n\n
+
+            Account Creation: Create an account using your email address and complete other requested information to access the app\'s features.\n\n
+
+        3. Authenticity Verification Process:\n\n
+
+            Scan QR Code: Use the app to scan the QR code on the product label or packaging.\n
+            Verify Authenticity: Receive instant feedback on the product\'s authenticity status based on the scanned QR code.\n\n
+
+        4. QR Code Scanning:\n\n
+
+            Camera Scan: Point your device\'s camera at the QR code to scan it directly from the product.\n
+            Gallery Scan: Upload an image of the QR code from your device\'s gallery to initiate the scanning process.\n\n
+
+        5. Changing Password:\n\n
+
+            Navigate to the "Login Page".\n
+            Select the "Change Password" option.\n
+            Follow the prompts to enter your current password and set a new one.\n
+    </string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/loginCard"
+    app:cardCornerRadius="@dimen/loginCardRadius"
+    android:elevation="5dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/whiteCardColor">
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:text="Scan QR"
+            android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+        <Button
+            android:id="@+id/btnQrCamera"
+            style="@style/modifiedEditText"
+            android:maxLines="1"
+            android:text="From Camera"
+            android:layout_marginTop="@dimen/buttonCardRadius"/>
+
+        <Button
+            android:id="@+id/btnQrMemory"
+            style="@style/modifiedEditText"
+            android:maxLines="1"
+            android:text="From Memory"
+            android:layout_marginTop="@dimen/buttonCardRadius"
+            android:onClick="openGalleryOnClick"/>
+
+        <!--progress bar for loading -->
+        <ProgressBar
+            android:id="@+id/idLoadingPB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <!--Button
+            android:id="@+id/btnLogout"
+            style="@style/loginButton"
+            android:text="Logout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/loginViewsMargin"/-->
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
