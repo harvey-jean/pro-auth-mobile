@@ -16,9 +16,12 @@ Counterfeit products pose significant risks to consumers, including health hazar
 1. Clone the repository:
    ```sh
    git clone https://github.com/harvey-jean/pro-auth-mobile.git
+   ```
 
 2. Open the project in Android Studio:
-   cd product-authentication-app
+   ```sh
+   cd pro-auth-mobile
+   ```
 
 3. Sync the project with Gradle files.
 
